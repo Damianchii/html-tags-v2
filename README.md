@@ -1,5 +1,5 @@
 ```bash
-<table>
+<table> <!-- Table - Tworzy tabele-->
   <tr> <!-- Table Row - wiersz poziomy tabeli-->
       <td>wiersz 1 kolumna 1</td> <!-- Table Data - Definiuje komórke w tabeli-->
       <td>wiersz 1 kolumna 2</td>
@@ -16,15 +16,15 @@
 <br>
 
 <table>
-  <caption>Podpis tabeli:</caption>
-  <thead>
+  <caption>Podpis tabeli:</caption> <!-- Tytuł/Nazwa Tabeli ->
+  <thead> <!-- Nagłówek Tabeli - Definiujemy w nim poszczególne nazwy kolumn ->
       <tr>
           <td></td>
           <td>Kolumna 1</td>
           <td>Kolumna 2</td>
       </tr>
   </thead>
-  <tbody>
+  <tbody> <!-- Table Body - Właściwa Treść Tabeli ->
       <tr>
           <td>Wiersz 1</td>
           <td>200</td>
@@ -41,7 +41,7 @@
           <td>500</td>
       </tr>
   </tbody>
-  <tfoot>
+  <tfoot> <!-- Table Footer - Stopka Tabeli ->
       <tr>
           <td>Podsumowanie:</td>
           <td>800</td>
@@ -52,8 +52,8 @@
 ```
 ### Result
 <table>
-  <tr> <!-- Table Row - wiersz poziomy tabeli-->
-      <td>wiersz 1 kolumna 1</td> <!-- Table Data - Definiuje komórke w tabeli-->
+  <tr>
+      <td>wiersz 1 kolumna 1</td>
       <td>wiersz 1 kolumna 2</td>
       <td>wiersz 1 kolumna 3</td>
   </tr>
