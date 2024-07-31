@@ -1,5 +1,5 @@
 ## `<table>` - Tabele
-    ```bash
+```bash
     <table> <!-- Table - Tworzy tabele-->
         <tr> <!-- Table Row - wiersz poziomy tabeli-->
             <td>wiersz 1 kolumna 1</td> <!-- Table Data - Definiuje komórke w tabeli-->
@@ -102,14 +102,15 @@
           </tr>
       </tfoot>
     </table>
-    
-    ## `<a>` - hiperłącze
-    
+```
+## `<a>` - hiperłącze
+
+```bash
 <!--
 http://127.0.0.1/ - localhost - adres na naszym komputerze
 -->
 
-```bash
+
   <p><a href="https://google.com">link bezwzględny - absolutny</a></p>
 
   <p><a href="lists.html">link względny - relative</a></p>
@@ -157,50 +158,3 @@ http://127.0.0.1/ - localhost - adres na naszym komputerze
       maiores? Voluptas velit distinctio laudantium culpa unde, quibusdam, modi vel aut laboriosam facilis error!
       Minima.</p>
 ```
-
-  <p><a href="https://google.com">link bezwzględny - absolutny</a></p>
-
-  <p><a href="lists.html">link względny - relative</a></p>
-  <p><a href="./lists.html">link względny z ./ - relative</a></p>
-
-
-  <p><a href="/lists.html">link względny z / - relative</a></p>
-
-  <p>
-      <a href="tel:48987987987">987987987</a>
-  </p>
-
-  <p>
-      <a href="mailto:ewa@example.com">ewa@example.com</a>
-  </p>
-
-  <p>
-      <a href="#">pusty link</a>
-  </p>
-
-
-  <!-- kotwice - z angielskiego anchors -->
-  <p>
-      <a href="#chapter1">rozdział #1</a>
-  </p>
-
-  <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam voluptatibus iure neque cum id
-      modi pariatur. Consectetur pariatur, perferendis, laboriosam ducimus nulla ab asperiores suscipit recusandae
-      esse culpa ea nobis cum ratione voluptates, debitis vitae? Nesciunt, magnam voluptate nostrum quisquam
-      doloremque deserunt sint est earum, minima id ipsam? Hic, porro quasi dolore nemo ipsam ut iste nulla
-      dolorem earum tenetur iure natus expedita eaque quae provident quos sit. Placeat reprehenderit, voluptates
-      accusantium, aliquam aut praesentium voluptatibus aspernatur amet maiores dolorum quis magni cumque rerum
-      dolores? Sunt, asperiores ipsam eligendi provident aspernatur quidem accusamus molestiae quia modi earum
-      veniam officiis.
-  </p>
-
-  <h3 id="chapter1">Nagłówek h3 - rozdział #1</h3>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste provident laborum unde minima assumenda optio
-      quisquam porro, necessitatibus debitis fuga odio hic perspiciatis autem soluta vitae alias? Sequi optio
-      reiciendis aut dolorum illo voluptatum aspernatur sed dolores facilis ratione minima saepe inventore,
-      dignissimos tempora aliquid numquam. Nam minus eum molestiae. Id ab in vero, odio perferendis vel veritatis
-      illum sapiente facilis amet. Veritatis, id nisi quo, quasi fuga expedita adipisci ducimus, iusto
-      necessitatibus delectus consequuntur. Sint id ratione accusamus unde minima, quae commodi hic dignissimos
-      maiores? Voluptas velit distinctio laudantium culpa unde, quibusdam, modi vel aut laboriosam facilis error!
-      Minima.</p>
